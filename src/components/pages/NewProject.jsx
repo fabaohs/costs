@@ -4,8 +4,10 @@ import { useNavigate } from 'react-router-dom'
 
 export default function NewProject() {
 
+   // redirect
    const navigate = useNavigate()
 
+   // post project
    function createPost(project) {
 
       // fields
@@ -21,7 +23,7 @@ export default function NewProject() {
 
       }).then(res => res.json())
          .then(data => {
-            navigate('/projects')
+            navigate('/projects', { state: { message: "Projeto criado com sucesso!" } })
          })
          .catch(err => console.log(err))
 
