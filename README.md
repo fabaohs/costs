@@ -1,2 +1,2 @@
-# TODO
-- Validate if fields are not empty
+#COSTS
+Costs é um projeto feito em React.Js com JsonServer para auxiliar a gerencia de projetos.
