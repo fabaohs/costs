@@ -1,26 +1,58 @@
 {
   "projects": [
     {
-      "name": "Projetinho fellas",
-      "budget": "20000000",
+      "name": "Comprar mesa nova",
+      "budget": "30000000",
       "category": {
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 2000,
+      "services": [
+        {
+          "name": "Venda de substancias iliictas",
+          "cost": "2000",
+          "description": "Gerenciamento da boca",
+          "id": "de7ede5a-e0d3-4c4a-a2c8-944c28105a49"
+        }
+      ],
       "id": 1
     },
     {
-      "name": "Projeto de teste",
-      "budget": "123",
+      "name": "Comprar papel higienico",
+      "budget": "10",
       "category": {
-        "id": "2",
-        "name": "Design"
+        "id": "1",
+        "name": "Infra"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 2,
+      "services": [
+        {
+          "name": "Gorjeta",
+          "cost": "2",
+          "description": "Dar gorjeta.",
+          "id": "071d3434-c0a9-43a7-925f-c5219bef34ce"
+        }
+      ],
       "id": 2
+    },
+    {
+      "name": "Comprar itens para a cozinha ",
+      "budget": "5000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 5000,
+      "services": [
+        {
+          "name": "Contratar um analista de requisitos",
+          "cost": "5000",
+          "description": "Ele analisa os requisitos",
+          "id": "bb43cb86-2e9a-4e23-bdfb-6445daea7bcb"
+        }
+      ],
+      "id": 3
     }
   ],
   "categories": [
